@@ -9,6 +9,7 @@ function getInitials(name){
 
     for (let i = 0; i < name.length; i++){
         if (name.charAt(i) == " "){
+            initials += "."
             initials += name.charAt(i+1);
         }
     }
