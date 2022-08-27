@@ -1,6 +1,6 @@
 
 //This functions gets the initials from a person name
-//Example - Elvis Presley returns EP
+//Example - Elvis Presley returns E.P
 
 function getInitials(name){
 
@@ -10,7 +10,7 @@ function getInitials(name){
     for (let i = 0; i < name.length; i++){
         if (name.charAt(i) == " "){
             initials += "."
-            initials += name.charAt(i+1);
+            initials += name.charAt(i+1).toUpperCase();
         }
     }
     return initials;
