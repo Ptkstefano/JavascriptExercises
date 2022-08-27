@@ -5,7 +5,7 @@
 function getInitials(name){
 
     let initials = "";
-    initials = name.charAt(0)
+    initials = name.charAt(0).toUpperCase();
 
     for (let i = 0; i < name.length; i++){
         if (name.charAt(i) == " "){
