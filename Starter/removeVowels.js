@@ -9,7 +9,7 @@ function remove(str) {
 
     let filtered = array.filter(checkVowel);
 
-    return filtered
+    return filtered.join('');
 
 }
 
